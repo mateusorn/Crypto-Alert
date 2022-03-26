@@ -26,8 +26,7 @@ while repeat <= 1:
     symbol_convertor[0] = symbol_convertor[0].replace("BUSD","").replace("USDT","").replace("USDC","")
     # "0.02110000" > "0.0211"
     symbol_convertor[1] = float(symbol_convertor[1])
-    print(f"PRICE ALERT [{symbol_convertor[0]} - ${price_input}]")
-    print(f"{time} - {symbol_convertor[0]} ${symbol_convertor[1]}", end="\r")
+    print(f"🔔 [${price_input}] 📈 {time} - {symbol_convertor[0]} ${symbol_convertor[1]}", end="\r")
     sleep(1)
     #if the actual price of a coin is higher or equal than the alert price, do:
     if symbol_convertor[1] >= price_input:
