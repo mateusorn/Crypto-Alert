@@ -46,3 +46,5 @@ while repeat <= 1:
         sleep(10)
     elif symbol_convertor[1] == price_input:
         print(Fore.RED + f"The currency {symbol_convertor[0]} already hit this price!")
+        
+#GUI library tkinter, kivy, pyQT
