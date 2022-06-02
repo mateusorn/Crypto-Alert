@@ -37,6 +37,6 @@ OUTPUT EXAMPLE: SLP reach the alert price of $0.1 - But with a google translator
 
 **I have been studying python for less than 1 week and then I enjoyed my first project, and I decided to share cause It's a project that I want to upgrade soon.**
 
-Coming Soon (Probably never):
+Coming Soon (probably never):
 - GUI, some kind of panel better than a ugly console
 - A way to let users input multiple coins and multiple alerts at the same time
